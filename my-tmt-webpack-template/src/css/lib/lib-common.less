@@ -1,0 +1,32 @@
+/* 引入库文件 */
+@import "./lib-mixins";
+@import "./lib-reset";
+
+// 引入 REM 解决方案依赖
+// 调用示例 <html data-rem="375">
+@import "./lib-rem";
+
+@grid-gutter-width:0;
+@grid-columns: 12;
+@grid-float-breakpoint: 320px;
+
+.full-width{
+    display: block;
+    width: 100%;
+}
+
+.fr{
+    float: right;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+}
